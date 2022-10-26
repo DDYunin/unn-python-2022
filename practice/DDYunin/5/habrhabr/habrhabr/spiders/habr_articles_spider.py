@@ -25,5 +25,5 @@ class ArticleSpider(scrapy.Spider):
 
     def parse_post(self, response):
         yield {
-            'title':str(response.css('h1.tm-article-snippet__title span::text').get())
+            'title':response.css('h1.tm-article-snippet__title span::text').get()
         }
