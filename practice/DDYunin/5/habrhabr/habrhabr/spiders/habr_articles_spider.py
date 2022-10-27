@@ -4,6 +4,7 @@ import scrapy
 
 class ArticleSpider(scrapy.Spider):
     name = 'habr'
+    # Тут указывается ссылка на страницу человека на habr, можно, конечно, всех попарсить
     start_urls = ['https://habr.com/ru/users/reug/']
 
     # Первоначальная ссылка, которая ведёт в посты пользователяку
