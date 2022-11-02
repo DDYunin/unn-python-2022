@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "solution-practice-5"
+version = "0.1.0"
+description = "This is solution of practice_5"
+authors = ["Dan Yunin <DaniilUnin2002@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "solution_practice_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
