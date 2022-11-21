@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "practice-8"
+version = "0.1.0"
+description = ""
+authors = ["Dan Yunin <DaniilUnin2002@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "practice_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
